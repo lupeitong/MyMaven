@@ -1,0 +1,69 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify Login successfully",
+        "description": "",
+        "id": "login-functionality;verify-login-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4848601468,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User in login page",
+            "match": {
+              "location": "LoginStepDefination.user_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4527601,
+              "error_message": "java.lang.NullPointerException\r\n\tat com.StepDefination.LoginStepDefination.user_enter_valid_useername_and_valid_password(LoginStepDefination.java:28)\r\n\tat ✽.When User enter valid useername and valid password(Login.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "User enter valid useername and valid password",
+            "match": {
+              "location": "LoginStepDefination.user_enter_valid_useername_and_valid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User click the Signin button",
+            "match": {
+              "location": "LoginStepDefination.user_click_the_Signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Verify user login successfully",
+            "match": {
+              "location": "LoginStepDefination.verify_user_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]

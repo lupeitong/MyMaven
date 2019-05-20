@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="4.853129">
+<testcase classname="Login Functionality" name="Verify Login successfully" time="4.853129">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.StepDefination.LoginStepDefination.user_enter_valid_useername_and_valid_password(LoginStepDefination.java:28)&#13;&#10;&#9;at ✽.When User enter valid useername and valid password(Login.feature:6)&#13;&#10;"><![CDATA[Given User in login page....................................................passed
+When User enter valid useername and valid password..........................failed
+And User click the Signin button............................................skipped
+Then Verify user login successfully.........................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.StepDefination.LoginStepDefination.user_enter_valid_useername_and_valid_password(LoginStepDefination.java:28)
+	at ✽.When User enter valid useername and valid password(Login.feature:6)
+]]></failure>
+</testcase>
+</testsuite>
